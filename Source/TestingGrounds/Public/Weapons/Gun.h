@@ -23,12 +23,14 @@ class TESTINGGROUNDS_API AGun : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AGun();
+
+	UFUNCTION(BlueprintCallable)
 	void OnFire();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	/** Fires a projectile. */
-	
 	
 
 public:	
